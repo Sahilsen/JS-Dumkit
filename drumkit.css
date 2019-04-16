@@ -1,0 +1,56 @@
+html {
+    font-size: 10px;
+    background: url("background.jpg") bottom center fixed;
+    overflow:  hidden;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.09s ease;
+    width: 10rem;
+    text-align: center;
+    color:white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 5px #f6f349f6,0 0 1px #f6f349f6;
+    
+  }
+  
+  .playing {
+    transform: scale(2);
+    border-color: #f6f349f6;
+    box-shadow: 0 0 1rem #f6f349f6;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .audio {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #f6f349f6;
+    text-shadow: 0 0 5px #f6f349f6,0 0 5px #f6f349f6;
+  }
+  
